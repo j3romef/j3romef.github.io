@@ -1,0 +1,10 @@
+#index header,
+#resume header{
+  padding-top: 1em;
+  text-align: center;
+  width: 50%;
+  margin: 8em auto;
+  padding-bottom: 2em;
+  background-color: #576675;
+  border-radius: 25px;
+}
