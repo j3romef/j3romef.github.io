@@ -1,10 +1,163 @@
-#index header,
-#switzerland header{
+header{
   padding-top: 1em;
   text-align: center;
-  width: 50%;
-  margin: 8em auto;
+  width: auto;
+  height: 10%;
+  margin: 15px auto;
   padding-bottom: 2em;
   background-color: #576675;
   border-radius: 25px;
+}
+
+
+h1,
+h2,
+h3,
+h4{
+  font-family: "Abel";
+}
+
+h2{
+  padding: 1px;
+}
+
+body{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template:
+    "title title"
+    "geography economy"
+    "military economy";
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-gap: 15px;
+  font-size: 18px;
+  background-color: #EAEAEA;
+  border-radius: 25px;
+  padding-bottom: 15px;
+}
+
+a:hover{
+  color: #FFFFFF;
+  background-color: #5B5B5B
+}
+
+a:visited{
+  text-decoration: none;
+  color: #B042FF;
+  text-align: center;
+  display: inline-block;
+  width: 5.5em;
+}
+
+a:link{
+  text-decoration: underline;
+  text-color: #1338BE
+}
+
+a:active{
+  background-color: #85C285;
+  color: #FFFFFF;
+}
+
+p{
+  font-family: "Hind";
+}
+
+body{
+  background-color: #db9c9f;
+  background-size: auto;
+  padding: 15px;
+}
+
+section{
+  background-color: #ffffff;
+  background-size: auto;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 1em;
+}
+
+article{
+  padding-bottom: auto;
+}
+
+img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width:50%;
+  height:50%;
+  align: center;
+}
+
+footer{
+  text-align: center;
+  display: block;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: white;
+  border-radius: 25px;
+  max-width: 90%;
+}
+
+.caption{
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #8B0000;
+}
+
+#title{
+  grid-area: title;
+}
+
+#geography{
+  grid-area: geography;
+}
+
+#map{
+  grid-area: map;
+}
+
+#location{
+  grid-area: location;
+}
+
+#climate{
+  grid-area: climate;
+}
+
+#military{
+  grid-area: military;
+}
+
+#town{
+  grid-area: town;
+}
+
+#zurich{
+  grid-area: zurich;
+}
+
+#zlink{
+  text-align: center;
+}
+
+#economy{
+  grid-area: economy;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template:
+    "title title"
+    "town town"
+    "industries currency"
+    "zurich zurich";
 }
