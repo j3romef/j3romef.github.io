@@ -19,42 +19,43 @@
   </head>
 
   <body>
-    <header id="header">
+    <header id="welcome">
       <h1>Switzerland</h1>
-      <img src="images/swisspeak.jpg" alt="A photo of a swiss flag and peak.">
-      <p class="caption">The Swiss flag and a snowy Swiss peak</p>
-      <p> Welcome to my Site on Switzerland... Now featuring CSS!</p>
+      <p> Welcome to my Site on Switzerland... Now featuring CSS Grid!</p>
     </header>
-    <main>
-      <section id="geography">
-        <article id="title">
-          <h2>Swiss Geography</h2>
-        </article>
-        <article id="map">
-          <h3>Map of Switzerland</h3>
-          <img src="images/szmap.png" alt="Map of Switzerland from CIA Factbook.">
-          <p class="caption">Map of Switzerland</p>
-        </article>
-        <article id="location">
-          <h3>Location</h3>
-          <p>Switzerland is nestled away in Western Europe.</p>
-          <p>It is bordered to the north by Germany, the west by France, the east by Austria, and the south by Italy.</p>
-          <p>Switzerland has a total area of 41,277km. That is composed of 39,997km of land and 1,280km of water.</p>
-        </article>
-        <article id="climate">
-          <h3>Climate</h3>
-          <p>The climate in Switzerland is temperate, though it varies with altitude. They experience cold and cloudy winters and warm and humid summers with occasional showers.
-          <p>Switzerland contains a portion of the Alps in the south, in which the highest point is located at 4,634 meters above sea level.</p>
-          <p>Central Switzerland consists of mainly rolling hills, plains, and lakes.</p>
-        </article>
-      </section>
-      <section id="military">
-        <article id="title">
+
+    <section id="geography">
+        <h2 id="geographytitle">Geography</h2>
+        <p>Switzerland is nestled away in Western Europe.</p>
+        <p>It is bordered to the north by Germany, the west by France, the east by Austria, and the south by Italy.</p>
+        <p>Switzerland has a total area of 41,277km. That is composed of 39,997km of land and 1,280km of water.</p>
+    </section>
+
+    <figure id="map">
+        <img src="images/szmap.png" alt="Map of Switzerland from CIA Factbook.">
+        <figurecaption>
+          <b>A map of Switzerland</b>
+        </figurecaption>
+    </figure>
+
+    <figure id="swisspeak">
+      <img src="images/swisspeak.jpg" alt="A photo of a swiss flag and peak.">
+      <figurecaption>
+        <b>The Swiss flag and a snow-capped peak</b>
+      </figurecaption>
+    </figure>
+
+    <section id="climate">
+        <h2>Climate</h2>
+        <p>The climate in Switzerland is temperate, though it varies with altitude. They experience cold and cloudy winters and warm and humid summers with occasional showers.
+        <p>Switzerland contains a portion of the Alps in the south, in which the highest point is located at 4,634 meters above sea level.</p>
+        <p>Central Switzerland consists of mainly rolling hills, plains, and lakes.</p>
+    </section>
+
+    <section id="military">
           <h2>Military and Security</h2>
-          <img src="images/swisssatelite.jpg" alt="Switzerland from space from CIA Factbook.">
-          <p class="caption">Switzerland as seen from space.</p>
-        </article>
-        <article id="expenditures">
+          <p>Switzerland's Military is not necessarily known for their strength. In most conflicts Switzerland chooses neutrality because their geographty is in a disadvantaged location.</p>
+          <p>The Swiss Armed Forces keeps a total of 4,000 active personnel, 20,000 conscripts, and 120,000 reserve forces.</p>
           <h3>Military Expenditures 2016-2020</h3>
           <table>
             <caption> Swiss Military Expenditures as % of GDP, 2016-2020</caption>
@@ -83,46 +84,24 @@
               <td>0.8%</td>
             </tr>
           </table>
-        </article>
-        <article id="personnel">
-          <h3>Miliary Personnel</h3>
-          <p>Switzerland's Military is not necessarily known for their strength. In most conflicts Switzerland chooses neutrality because their geographty is in a disadvantaged location.</p>
-          <p>The Swiss Armed Forces keeps a total of 4,000 active personnel, 20,000 conscripts, and 120,000 reserve forces.</p>
-        </article>
-        <article id="equipment">
-          <h3>Military Equipment</h3>
-          <p>The swiss army uses a mix of domestic and imported weapons to arm their military. They are known for their domestically produced range of land vehicles.</p>
-          <p>The U.S. is Switzerland's #1 importer of weapons, a position held since 2010.</p>
-          <p>If you want to learn more about the Swiss military click on the link below!</p>
-          <a href="https://www.vtg.admin.ch/en/home.html/">Official Swiss Military Website</a>
-        </article>
-      </section>
-      <section id="economy">
-        <article id="title">
-          <h2>Economy</h2>
-        </article>
-        <article id="town">
-          <h3>Swiss Town</h3>
-          <img src="images/swisstown.jpg" alt="Swiss town img from CIA Factbook">
-          <p class="caption">An economic center in Switzerland</p>
-        </article>
-        <article id="industries">
-          <h3>Key Swiss Industries</h3>
-          <p>A few of the key Swiss industries that contribute to their GDP are, in no particular order:</p>
-          <ul>
-            <li>Machinery</li>
-            <li>Chemicals</li>
-            <li>Watches</li>
-            <li>Textiles</li>
-            <li>Precision Instruments</li>
-            <li>Tourism</li>
-            <li>Banking</li>
-            <li>Insurance</li>
-            <li>Pharmaceuticals</li>
-          </ul>
-          <p>On average, each year Switzerland sees around 3.4% growth in their Industrial Production.</p>
-          <h3>Exports & Imports</h3>
-          <table>
+    </section>
+
+    <section id="industries">
+      <h2>Key Swiss Industries</h2>
+      <p>A few of the key Swiss industries that contribute to their GDP are, in no particular order:</p>
+      <ul>
+        <li>Machinery</li>
+        <li>Chemicals</li>
+        <li>Watches</li>
+        <li>Textiles</li>
+        <li>Precision Instruments</li>
+        <li>Tourism</li>
+        <li>Banking</li>
+        <li>Insurance</li>
+        <li>Pharmaceuticals</li>
+      </ul>
+      <h3>Exports</h3>
+        <table>
             <caption>Total Exports, 2017-2019</caption>
             <tr>
               <td>Year</td>
@@ -140,71 +119,14 @@
               <td>2019</td>
               <td>$443.997 billion</td>
             </tr>
-          </table>
-          <table>
-            <caption>Total Imports, 2017-2019</caption>
-            <tr>
-              <td>Year</td>
-              <td>Total Value Imported</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>$343.367 billion</td>
-            </tr>
-            <tr>
-              <td>2018</td>
-              <td>$344.557 billion</td>
-            </tr>
-            <tr>
-              <td>2019</td>
-              <td>$344.477 billion</td>
-            </tr>
-          </table>
-        </article>
-        <article id="currency">
-            <h3>Currency</h3>
-            <p>The national currency of Switzerland is the Swiss Franc (CHF). The following is the conversion rate to the US Dollar:</p>
-            <table>
-              <caption>Swiss Franc to USD Exchange Rate, 2013-2020</caption>
-              <tr>
-                <td>Year</td>
-                <td>Exchange Rate</td>
-              </tr>
-              <tr>
-                <td>2013</td>
-                <td>0.9152</td>
-              </tr>
-              <tr>
-                <td>2014</td>
-                <td>0.9627</td>
-              </tr>
-              <tr>
-                <td>2018</td>
-                <td>0.99195</td>
-              </tr>
-              <tr>
-                <td>2019</td>
-                <td>0.98835</td>
-              </tr>
-              <tr>
-                <td>2020</td>
-                <td>0.88995</td>
-              </tr>
-            </table>
-            <p>If you would like to invest in the Swiss Franc you can read more if you click the link below</p>
-            <a href="https://www.thebalance.com/swiss-currency-how-to-invest-in-and-buy-swiss-francs-1978923">Invest in the Swiss Franc!</a>
-        </article>
-        <article id="zurich">
-          <img src="images/zurich.jpg" alt="Aerial view of Zurich from CIA Factbook.">
-          <p class="caption">An aerial view of the capital city of Zurich.</p>
-          <a href="https://www.zuerich.com/en" id="zlink">Plan a trip to Zurich today!</a>
-        </article>
-      </section>
-    </main>
-    <footer id="footer">
+        </table>
+    </section>
+
+    <footer>
       <p>Thank you for reading my site about Switzerland! I hope it inspired you to visit!</p>
       <p>Author: Jerome Fleischman</p>
       <p><a href="mailto:sjf117@miamu.edu">sjf117@miamu.edu</a></p>
+      <p><a href="#backtotop">Click here to go back to the top of the page</a>
     </footer>
   </body>
 </html>
