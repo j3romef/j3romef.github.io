@@ -30,10 +30,6 @@ h3{
   font-family: "Hind";
 }
 
-figurecaption{
-  color: #5B5B5B;
-}
-
 a:hover{
   color: #FFFFFF;
   background-color: #5B5B5B
@@ -103,7 +99,7 @@ footer{
   border-style: dashed;
   border-color: #FFFFFF;
 }
- 
+
 #industries{
   justify-content: center;
   grid-area: industries;
