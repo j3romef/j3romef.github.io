@@ -79,7 +79,6 @@ footer{
 #resume #experience{
   grid-template-columns: 1fr;
   grid-template:
-  "title"
   "orangearrow"
   "saac"
   "customearth"
@@ -94,7 +93,6 @@ footer{
   padding: 20px;
   grid-gap: 20px;
   grid-template:
-  "title title title"
   "education experience experience"
   "skills experience experience";
   color: #5B5B5B;
@@ -127,6 +125,10 @@ footer{
   border-radius: 25px;
 }
 
+#experience h2{
+  align-content: flex-start;
+}
+
 #resume #orangearrow{
   grid-area: orangearrow;
 }
@@ -144,7 +146,7 @@ footer{
 }
 
 #resume img{
-  
+  border-radius: 25px;
 }
 
 #resume section{
