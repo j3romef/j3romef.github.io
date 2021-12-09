@@ -11,15 +11,11 @@ body{
   background-color: #ADD8E6;
 }
 
-p{
+p, li{
   font-family: "Lato", sans-serif;
 }
 
-li{
-  font-family: "Lato", sans-serif;
-}
-
-h1{
+h1, a{
   font-family: "Domine", sans-serif;
 }
 
@@ -28,7 +24,6 @@ h2{
 }
 
 nav{
-  font-family: 'Roboto', sans-serif;
   position: fixed;
   top: 0;
   left: 0;
