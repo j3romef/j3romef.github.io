@@ -7,6 +7,23 @@
   max-height: 30%;
 }
 
+a:hover{
+  text-color: #00008B;
+}
+
+a:visited{
+  color: #666633;
+}
+
+a:link{
+  text-decoration: underline;
+}
+
+a:active{
+  background-color: #00008B;
+  text-color: #FFFFFF;
+}
+
 body{
   background-color: #ADD8E6;
 }
